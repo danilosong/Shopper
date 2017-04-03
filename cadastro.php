@@ -184,8 +184,7 @@ function validarSenha(){
         <!-- cadastro de foto-->
         
         <div class="form-group">
-          <label class="control-label col-sm-3">Foto de perfil<span class="text-danger">*</span><br>
-          <small>(Requerido)</small></label>
+          <label class="control-label col-sm-3">Foto de perfil<span class="text-danger">*</span><br></label>
           <div class="col-md-6 col-sm-8">
             <div class="input-group"> <span class="input-group-addon" id="file_upload"><i class="glyphicon glyphicon-upload"></i></span>
               <input type="file" id="img_cad" name="img_cad" type="file" maxlength="1" aria-describedby="file_upload" required>
