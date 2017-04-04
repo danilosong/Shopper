@@ -12,7 +12,7 @@
 <body>
 <?php
 	require 'conexao.php';
-	$consulta_prod = mysqli_query($conn, "SELECT NOME, IMG, DATA_NASC, CELULAR, SEXO FROM cadastro;")
+	$consulta_user = mysqli_query($conn, "SELECT NOME, IMG, DATA_NASC, CELULAR, SEXO FROM cadastro;")
 ?>
 <nav class="navbar navbar-default">
   <div class="container-fluid"> 
@@ -35,7 +35,7 @@
   <select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple">
       <?php 
 
-        while($consulta = mysqli_fetch_array($consulta_prod))
+        while($consulta = mysqli_fetch_array($consulta_user))
 		{
 	?>
     <!-- converter data -->
